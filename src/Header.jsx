@@ -5,8 +5,8 @@ import { SignInButton, UserButton, useUser } from '@clerk/clerk-react'
 const Header = () => {
     const {user,isSignedIn}= useUser()
   return (
-    <div  className="flex justify-around border border-black p-3 ">
-      <div className="flex border border-black text-center">
+    <div  className="flex justify-around  border-black p-3 ">
+      <div className="flex  border-black text-center">
       <img src={logo} alt="React Logo" />
        <h1 className="m-auto">Vroom_Vendors</h1>
       </div>
